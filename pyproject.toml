@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "blue-yonder"
+version = "0.1.0"
+description = ""
+authors = ["Vladi Ageykin <vladimir.ageykin@petelink.dev>"]
+readme = "README.md"
+packages = [{include = "blue_yonder"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103.1"
+requests = "^2.31.0"
+uvicorn = "^0.23.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.1"
+httpx = "^0.24.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
