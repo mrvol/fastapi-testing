@@ -1,10 +1,9 @@
 [tool.poetry]
-name = "blue-yonder"
+name = "testing task"
 version = "0.1.0"
 description = ""
-authors = ["Vladi Ageykin <vladimir.ageykin@petelink.dev>"]
+authors = ["mrvol777@gmail.com"]
 readme = "README.md"
-packages = [{include = "blue_yonder"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
